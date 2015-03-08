@@ -1,0 +1,20 @@
+﻿<div>
+  <h1>Customer List</h1>
+
+  <div class="well" style="background-image:none">
+
+    <div class="input-group">
+      <input type="text"
+             name="searchText"
+             ng-model="data.filterOptions.filterText"
+             class="form-control"
+             placeholder="Search by ID, Contact Name, Contact Title, City and Country" />
+      <span class="input-group-addon glyphicon glyphicon-search"
+            style="cursor:pointer"></span>
+    </div>
+    <br />   
+
+      <div class="gridStyle" ng-grid="gridOptions"></div>
+    
+</div>
+    </div>
